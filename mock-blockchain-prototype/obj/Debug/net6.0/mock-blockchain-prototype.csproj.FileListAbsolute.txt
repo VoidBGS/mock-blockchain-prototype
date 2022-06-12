@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\bin\Debug\net6.0\mock-blockchain-prototype.exe
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\bin\Debug\net6.0\mock-blockchain-prototype.deps.json
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\bin\Debug\net6.0\mock-blockchain-prototype.runtimeconfig.json
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\bin\Debug\net6.0\mock-blockchain-prototype.dll
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\bin\Debug\net6.0\mock-blockchain-prototype.pdb
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\mock-blockchain-prototype.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\mock-blockchain-prototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\mock-blockchain-prototype.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\mock-blockchain-prototype.AssemblyInfo.cs
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\mock-blockchain-prototype.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\mock-blockchain-prototype.dll
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\refint\mock-blockchain-prototype.dll
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\mock-blockchain-prototype.pdb
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\mock-blockchain-prototype.genruntimeconfig.cache
+C:\Users\User\Desktop\Uni2022\Individual\blockchain\mock-blockchain-prototype\mock-blockchain-prototype\obj\Debug\net6.0\ref\mock-blockchain-prototype.dll
