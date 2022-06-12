@@ -13,19 +13,20 @@ names.Add("Zach");
 names.Add("Zoe");
 names.Add("Dan");
 names.Add("Joe");
+names.Add("Mel");
 
 //Mock transactions, have fun
 for (int i = 0; i < numberOfIterations; i++)
 {
     Thread.Sleep(rnd.Next(500, 2000));
-    int sellingPerson = rnd.Next(0, 5);
-    int buyingPerson = rnd.Next(0, 5);
+    int sellingPerson = rnd.Next(0, 6);
+    int buyingPerson = rnd.Next(0, 6);
     int nrOfKrisCoinsSold = rnd.Next(1, 8);
     if(sellingPerson == buyingPerson && sellingPerson == 0)
     {
         buyingPerson++;
     }
-    else if (sellingPerson == buyingPerson && sellingPerson == 5)
+    else if (sellingPerson == buyingPerson && sellingPerson == names.Count - 1)
     {
         buyingPerson--;
     }
@@ -37,6 +38,6 @@ for (int i = 0; i < numberOfIterations; i++)
     Block prevTransaction = blockchain.GetLastBlock();
     Block transaction = new Block(prevTransaction.Hash, $"{names[sellingPerson]} sold {nrOfKrisCoinsSold} krisCoin to {names[buyingPerson]}");
     blockchain.AddBlock(transaction);
-    Console.WriteLine($"Transaction added: {transaction.Hash} prevous hash: {transaction.PrevHash} created at: {transaction.Timestamp} Data contains: {transaction.Data}");
+    Console.WriteLine($"Transaction added: {transaction.Hash} previous hash: {transaction.PrevHash} created at: {transaction.Timestamp} Data contains: {transaction.Data}");
 }
 Console.WriteLine($"End of mock blockchain demo. In real life a blockchain is far more complex as it requires transaction information, proof of workload (computational power) and a consensus mechanism");

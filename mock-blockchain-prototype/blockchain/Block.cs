@@ -27,7 +27,7 @@ namespace mock_blockchain_prototype.blockchain
 
         private void CalculateHash()
         {
-            var rawHash = Convert.ToString(this.PrevHash) + Convert.ToString(this.Timestamp) + Convert.ToString(this.Timestamp);
+            var rawHash = Convert.ToString(this.PrevHash) + Convert.ToString(this.Data) + Convert.ToString(this.Timestamp);
             this.Hash = ComputeSha256Hash(rawHash);
         }
 

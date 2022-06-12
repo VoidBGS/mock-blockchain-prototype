@@ -13,7 +13,7 @@ namespace mock_blockchain_prototype.blockchain
         public Blockchain()
         {
             this.blocks = new List<Block>();
-            Block genesis = this.GensisBlock();
+            Block genesis = this.GenesisBlock();
             this.blocks.Add(genesis);
         }
 
@@ -32,7 +32,7 @@ namespace mock_blockchain_prototype.blockchain
             return this.GetBlockChain().Last();
         }
 
-        public Block GensisBlock()
+        public Block GenesisBlock()
         {
             return new Block("", "Genesis Block");
         }
